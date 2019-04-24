@@ -42,7 +42,7 @@ class RegisterViewController: UIViewController {
                 
                 print("El registro funciono!!!")
                 
-                performSegue(withIdentifier: "goToChat", sender: self)
+                self.performSegue(withIdentifier: "goToChat", sender: self)
             }
         }
         
