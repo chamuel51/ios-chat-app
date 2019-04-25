@@ -45,11 +45,8 @@ class RegisterViewController: UIViewController {
                 self.performSegue(withIdentifier: "goToChat", sender: self)
             }
         }
-        
-        
 
-        
-        
+
     } 
     
     
